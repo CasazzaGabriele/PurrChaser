@@ -1,70 +1,53 @@
 <h1>Project Overview</h1>
-<img src="Screenshot 2024-02-16 145817.png" width="600px" height="400px">
+<img src="\BP_Screen\menu.png" width="400px" height="550px">
 <p>
-Magic mirror is a mobile app that allows you to try various clothing using AR,<br>
-It was developed with both the consumer and the business in mind
+PurrChaser è un gioco per mobile sviluppato in Unreal Enigne 5.
+E' stato realizzato durante la classe X ( una settimana dove gli studenti di Bigrock si dividono in grupppi per realizzare un proggetto commisionato da un cliente esterno).
 </p>
 
-<h2>Key features</h2>
-
 <p>
+il mio compito è stato quello di proggetare e realizzare le meccaniche di gioco, quali: 
+<ul>
+  <li>Spawn procedurale delgi ostacli da evitare</li>
+  <li>Spawn Delle file di monete da raccoglier</li>
+  <li>Gestione dello shop per comprare le skin</li>
+</ul>
+</p>
+
+<h2>Spawn Degli ostacoli</h2>
+<img src="\BP_Screen\SpawnObstaclept1.png" width="700px" height="400px">
+<img src="\BP_Screen\SpawnObstaclept2.png" width="700px" height="400px">
+<p>
+  Una volta creatami una matrice M(i,j), vado a spawnare gli ostacoli seguendo una logica probabilistica.
   <ul>
-    <li>Full body tracking via ARKit</li>
-    <li>Cloth physics Simulation</li>
-    <li>Gestures to change cloths</li>
-    <li>Great Scalabilty</li>
+    <li><p>In primo luogo vado a calocalarmi la probabilità di spawn in mase alla fila in cui mi trovo (rispetto alla matrice),
+    le file centrali haano una probabilità di spawn più alta riepstto le file esterne</p></li>
+    <li> Poi vado a calocalere quale oggetto spawnare</li>
   </ul>
 </p>
+<img src="\BP_Screen\SpawnProbability.png" width="700px" height="400px">
+<img src="\BP_Screen\ProbabilityObstacleSpawn.png" width="700px" height="400px">
 
 
-<h2>Requirements</h2>
-
+<h2>Spawn Delle monete</h2>
 <p>
+  Questa volta vado a calcolare in quale fila e per quante righe spawnare le monete.
+  Utilizzando un array di Vector3 per salvare le posizione dove ho spawnato gli ostacoli evito di spawnare le monete sotto di essi.
   <ul>
-    <li>Iphone 6s or more recent model</li>
-    <li>IOS 11.0 or later</li>
-    <li>MacOS device with XCode</li>
-    <li>Unity 2023.2.4f1</li>
-    <li>Lightning to USB-C cable (or USB-C to USB-C for Iphone 15 and later models)</li>
+    <li><p>In primo luogo vado a calocalarmi la probabilità di spawn in mase alla fila in cui mi trovo (rispetto alla matrice),
+    le file centrali haano una probabilità di spawn più alta riepstto le file esterne</p></li>
+    <li> Poi vado a calocalere quale oggetto spawnare</li>
   </ul>
 </p>
+<img src="\BP_Screen\SpwanCoinPt1.png" width="700px" height="400px">
+<img src="\BP_Screen\SpawnCoinPt2.png" width="700px" height="400px">
 
-<h2>How to use</h2>
-<p>
-  <ol>
-    <li>Place your device on a stable plane and make sure that the rear camera can see you whole body</li>
-    <li>If you are using it on yourself use some form of screen mirroring so you can see the app running</li>
-    <li>Once the app detects a human body a white outline should appear on the ground, place both of your feets inside the cylinder, make sure you are facing the camera</li>
-    <li>If you are positoned correctly 2 red spheres shoul appear, place both of you hands inside of them</li>
-    <li>If you did everything correctly a shirt and two buttons should appear</li>
-    <Li>You can change the color of the shirt by touching one of the buttons</Li>
-    <li>If the shirt breaks or falls off you can simply walk away and do the "tutorial" again</li>
-  </ol>
-</p>
+<h2>SHOP</h2>
+<p>Per lo shop ho gestito tramite tutto il processo di buyng e storage delle skin comprate dal player, utilizzando un Game Manager per salvarmi tutte le informazione di acqiosto e di raccolata delle monete</p>
+<img src="\BP_Screen\Shop.png" width="400px" height="550px">
+<img src="\BP_Screen\Screenshot 2024-02-17 145308.png" width="700px" height="400px">
 
-<br>
-
-<h1>Credits</h1>
-
-<h2>Developers</h2>
-<ul>
-  <li>Marco Piamonte</li>
-  <li>Gabriele Casazza</li>
-</ul>
-<h2>Artistic support</h2>
-<ul>
-  <li>Nicolò Allegri Bellinato</li>
-</ul>
-
-
-<br>
-
-<h1>Dependencies & Systems used</h1>
-
-<ul>
-  <li>AR foundations: https://github.com/Unity-Technologies/arfoundation-samples.git</li>
-  <li>Unity cloth simulation</li>
-  <li>Apple ArKit 6.0</li>
-  <li>Unity OpenXR 1.9.1</li>
-</ul>
+<h2>Game Play</h2>
+<p> ecco qui sotto il gamplaye del gioco</p>
+<img src="\BP_Screen\PurrChaserGamePlay.mp4" width="700px" height="400px">
 
