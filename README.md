@@ -46,3 +46,6 @@ il mio compito è stato quello di proggetare e realizzare le meccaniche di gioco
 <p>Per lo shop ho gestito tramite tutto il processo di buyng e storage delle skin comprate dal player, utilizzando un Game Manager per salvarmi tutte le informazione di acqiosto e di raccolata delle monete</p>
 <img src="\BP_Screen\Shop.png" width="400px" height="550px">
 <img src="\BP_Screen\Screenshot 2024-02-17 145308.png" width="700px" height="400px">
+
+<h2>Game Play</h2>
+<p> ecco qui sotto il gamplaye del gioco</p>
