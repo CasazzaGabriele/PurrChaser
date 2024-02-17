@@ -40,5 +40,5 @@ il mio compito è stato quello di proggetare e realizzare le meccaniche di gioco
   </ul>
 </p>
 <img src="\BP_Screen\SpwanCoinPt1.png" width="700px" height="400px">
-<img src="\BP_Screen\SpwanCoinPt2.png.png" width="700px" height="400px">
+<img src="\BP_Screen\SpawnCoinPt2.png.png" width="700px" height="400px">
 
