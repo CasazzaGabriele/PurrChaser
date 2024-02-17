@@ -18,7 +18,12 @@ il mio compito è stato quello di proggetare e realizzare le meccaniche di gioco
 <img src="\BP_Screen\SpawnObstaclept1.png" width="700px" height="400px">
 <img src="\BP_Screen\SpawnObstaclept2.png" width="700px" height="400px">
 <p>
-  Una volta creatami una matrice M(i,j), vado a spawnare gli ostacoli seguendo una logica probabilistica, come si può vedere dagli screen.
+  Una volta creatami una matrice M(i,j), vado a spawnare gli ostacoli seguendo una logica probabilistica.
+  <ul>
+    <li><p>In primo luogo vado a calocalarmi la probabilità di spawn in mase alla fila in cui mi trovo (rispetto alla matrice),
+    le file centrali haano una probabilità di spawn più alta riepstto le file esterne</p></li>
+    <li> Poi vado a calocalere quale oggetto spawnare</li>
+  </ul>
 </p>
 <img src="\BP_Screen\SpawnProbability.png" width="700px" height="400px">
 <img src="\BP_Screen\ProbabilityObstacleSpawn.png" width="700px" height="400px">
