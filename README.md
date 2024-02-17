@@ -48,6 +48,8 @@ il mio compito è stato quello di proggetare e realizzare le meccaniche di gioco
 <img src="\BP_Screen\Screenshot 2024-02-17 145308.png" width="700px" height="400px">
 
 <h2>Game Play</h2>
-<p> ecco qui sotto il gamplaye del gioco</p>
-<img src="\BP_Screen\PurrChaserGamePlay.mp4" width="700px" height="400px">
+<p>Puoi trovare il gameplay nella repository PurrChaser </p>
+
+<h3>Per maggiori infformazioni casazzagabriele@gmail.com</h3>
+
 
