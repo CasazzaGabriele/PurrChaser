@@ -1,5 +1,5 @@
 <h1>Project Overview</h1>
-<img src="\BP_Screen\menu.png" width="600px" height="400px">
+<img src="\BP_Screen\menu.png" width="400px" height="700px">
 <p>
 Magic mirror is a mobile app that allows you to try various clothing using AR,<br>
 It was developed with both the consumer and the business in mind
