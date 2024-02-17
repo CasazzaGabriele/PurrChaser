@@ -49,3 +49,5 @@ il mio compito è stato quello di proggetare e realizzare le meccaniche di gioco
 
 <h2>Game Play</h2>
 <p> ecco qui sotto il gamplaye del gioco</p>
+<img src="\BP_Screen\PurrChaserGamePlay.mp4" width="700px" height="400px">
+
