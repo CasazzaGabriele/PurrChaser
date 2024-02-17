@@ -1,26 +1,26 @@
 <h1>Project Overview</h1>
 <img src="\BP_Screen\menu.png" width="400px" height="550px">
 <p>
-PurrChaser è un gioco per mobile sviluppato in Unreal Enigne 5.
-E' stato realizzato durante la classe X ( una settimana dove gli studenti di Bigrock si dividono in grupppi per realizzare un proggetto commisionato da un cliente esterno).
+PurrChaser is a mobile game developed in Unreal Engine 5.
+This project was created during the "Classe X" week, a week in which all the students at BigRock are divided into groups and have to realize a project commissioned by an external client.
 </p>
 
 <p>
-il mio compito è stato quello di proggetare e realizzare le meccaniche di gioco, quali: 
+I was in charge of the realization of the gameplay mechanics, such as: 
 <ul>
-  <li>Spawn procedurale delgi ostacli da evitare</li>
-  <li>Spawn Delle file di monete da raccoglier</li>
-  <li>Gestione dello shop per comprare le skin</li>
+  <li>Procedural spawn of the object to dodge</li>
+  <li>Procedural spawn of the rows of collectable coins</li>
+  <li>Organization of the shop</li>
 </ul>
 </p>
 
-<h2>Spawn Degli ostacoli</h2>
+<h2>Obstacles spawn</h2>
 <img src="\BP_Screen\SpawnObstaclept1.png" width="700px" height="400px">
 <img src="\BP_Screen\SpawnObstaclept2.png" width="700px" height="400px">
 <p>
-  Una volta creatami una matrice M(i,j), vado a spawnare gli ostacoli seguendo una logica probabilistica.
+  Once I created an M-matrix(i,j), the objects spawn with a probabilistic logic.
   <ul>
-    <li><p>In primo luogo vado a calocalarmi la probabilità di spawn in mase alla fila in cui mi trovo (rispetto alla matrice),
+    <li><p>Firstly, I calculate the spawn probability based on the row where I am (compared to the matrix),
     le file centrali haano una probabilità di spawn più alta riepstto le file esterne</p></li>
     <li> Poi vado a calocalere quale oggetto spawnare</li>
   </ul>
