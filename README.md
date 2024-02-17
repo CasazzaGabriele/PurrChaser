@@ -1,5 +1,5 @@
 <h1>Project Overview</h1>
-<img src="\BP_Screen\menu.png" width="400px" height="600px">
+<img src="\BP_Screen\menu.png" width="400px" height="550px">
 <p>
 PurrChaser è un gioco per mobile sviluppato in Unreal Enigne 5.
 E' stato realizzato durante la classe X ( una settimana dove gli studenti di Bigrock si dividono in grupppi per realizzare un proggetto commisionato da un cliente esterno).
@@ -15,13 +15,13 @@ il mio compito è stato quello di proggetare e realizzare le meccaniche di gioco
 </p>
 
 <h2>Spawn Degli ostacoli</h2>
-<img src="\BP_Screen\SpawnObstaclept1.png" width="600px" height="400px">
-<img src="\BP_Screen\SpawnObstaclept2.png" width="600px" height="400px">
+<img src="\BP_Screen\SpawnObstaclept1.png" width="700px" height="400px">
+<img src="\BP_Screen\SpawnObstaclept2.png" width="700px" height="400px">
 <p>
   Una volta creatami una matrice M(i,j), vado a spawnare gli ostacoli seguendo una logica probabilistica, come si può vedere dagli screen.
 </p>
-<img src="\BP_Screen\SpawnProbability.png" width="600px" height="400px">
-<img src="\BP_Screen\ProbabilityObstacleSpawn.png" width="600px" height="400px">
+<img src="\BP_Screen\SpawnProbability.png" width="700px" height="400px">
+<img src="\BP_Screen\ProbabilityObstacleSpawn.png" width="700px" height="400px">
 
 <h2>Requirements</h2>
 
